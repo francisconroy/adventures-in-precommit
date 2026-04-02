@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/nvuillam/npm-groovy-lint
+    rev: v14.6.0
+    hooks:
+      - id: npm-groovy-lint
+        args: [--no-insight]
